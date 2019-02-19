@@ -1,7 +1,64 @@
-/* navbar */
-.navbar-expand-lg .navbar-nav .nav-item.cta .nav-link {
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:link, a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
+/* global */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.cta {
   color: #eeeeee;
   background: #c0392b;
+  border: 3px solid #c0392b;
+  padding: 15px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.cta:hover {
+  color: #eeeeee;
+  background: transparent;
+}
+
+/* navbar */
+/* intro */
+.intro {
+  display: table;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+
+.intro .inner .title {
+  color: #c0392b;
+  font-size: 3.5rem;
+}
+
+.intro .inner .desc {
+  width: 70%;
+  margin: 0 auto;
+  color: #eeeeee;
+  font-size: 1.7rem;
+  margin-bottom: 30px;
 }
 
 .movie-list {
