@@ -5,4 +5,44 @@
         background: #fdfdfd
         box-shadow: 0 10px 17px 2px #f3f3f3
     .thumbnail
+        position: relative
+        overflow: hidden
+        text-align: center
         padding-left: 0
+        padding-right: 0
+        img
+            max-height: 250px
+        
+        @media all and (max-width: 576px)
+            margin-bottom: 20px
+    
+    .details
+        ul, p
+            margin-bottom: 0
+        .type
+            li
+                font-size: 14px
+                text-transform: uppercase
+                color: #c0392b
+                letter-spacing: 2px
+            li:after
+                content: ","
+            li:last-child:after
+                content: ""
+        .title
+            margin: 5px 0 10px
+            font-size: 24px
+            font-weight: 300
+            letter-spacing: 1px
+            color: #101010
+        .desc
+            margin-bottom: 10px
+            color: #5a5a5a
+        .meta
+            li
+                font-size: 14px
+                background: #c0392b
+                color: #ffffff
+                padding: 5px 10px
+                border-radius: 5px
+
