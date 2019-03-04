@@ -25,6 +25,17 @@ a, a:link, a:hover, a:active, a:focus
         color: #eeeeee
         background: transparent
 
+.title
+    margin: 5px 0 10px
+    font-size: 24px
+    font-weight: 300
+    letter-spacing: 1px
+    color: #101010
+
+.desc
+    margin-bottom: 10px
+    color: #5a5a5a
+
 
 /* navbar */
 .navbar-expand-lg
@@ -120,14 +131,9 @@ a, a:link, a:hover, a:active, a:focus
             li:last-child:after
                 content: ""
         .title
-            margin: 5px 0 10px
-            font-size: 24px
-            font-weight: 300
-            letter-spacing: 1px
-            color: #101010
+            
         .desc
-            margin-bottom: 10px
-            color: #5a5a5a
+            
         .meta
             li
                 font-size: 14px
@@ -136,3 +142,47 @@ a, a:link, a:hover, a:active, a:focus
                 padding: 5px 10px
                 border-radius: 5px
 
+
+
+
+// News
+.news
+    background: #fdfdfd
+    padding-bottom: 100px
+    article
+        padding: 20px
+        transition: all 300ms ease
+        &:hover
+            box-shadow: 0 10px 17px 2px #f3f3f3
+        .title
+            a
+                display: block
+                color: #101010
+        time
+            display: inline-block
+            margin-bottom: 5px
+            font-size: 13px
+            background: #bfbfbf
+            color: #ffffff
+            padding: 2.5px 5px
+            border-radius: 5px
+        
+        .read-more
+            position: relative
+            display: inline-block
+            font-size: 14px
+            color: #101010
+            text-transform: uppercase
+            &:before
+                content: ""
+                position: absolute
+                bottom: 0
+                width: 30%
+                height: 2px
+                background: #c0392b
+                transition: all 300ms ease
+            &:hover:before
+                width: 100%
+
+            // 
+            // border-bottom: 2px solid #c0392b
