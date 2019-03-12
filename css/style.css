@@ -137,6 +137,12 @@ h1, h2, h3, h4, h5, h6, p, div, span, li {
   margin-bottom: 30px;
 }
 
+/**** About ****/
+.about .content {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 .movie-list {
   padding-left: 0;
   padding-right: 0;
