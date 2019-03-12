@@ -341,4 +341,10 @@ section {
 .news article .read-more:hover:before {
   width: 100%;
 }
+
+/**** Footer ****/
+footer {
+  padding: 0.5rem;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
