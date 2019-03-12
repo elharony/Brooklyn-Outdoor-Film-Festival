@@ -227,6 +227,12 @@ section {
   max-height: 250px;
 }
 
+@media all and (min-width: 520px) {
+  .movies .movie .thumbnail img {
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 576px) {
   .movies .movie .thumbnail {
     margin-bottom: 20px;
