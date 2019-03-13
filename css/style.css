@@ -170,6 +170,15 @@ section {
   text-align: center;
 }
 
+/**** About ****/
+.gallery {
+  padding-top: 0;
+}
+
+.gallery a {
+  margin-bottom: 1.3rem;
+}
+
 /**** Sponsors ****/
 .sponsors {
   background: #0e0e0e;
