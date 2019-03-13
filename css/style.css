@@ -319,6 +319,10 @@ section {
   border-radius: 5px;
 }
 
+.movies .movie .details .meta li a {
+  color: #000000;
+}
+
 .news {
   background: #fdfdfd;
   padding-bottom: 100px;
