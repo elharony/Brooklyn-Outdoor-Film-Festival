@@ -28,6 +28,7 @@ section {
 }
 
 .section-intro .section-intro__title span {
+  display: inline-block;
   position: relative;
   background: #ffffff;
   padding: 0 15px;
