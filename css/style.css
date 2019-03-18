@@ -221,6 +221,14 @@ section {
   background: #0e0e0e;
 }
 
+.sponsors .sponsor {
+  text-align: center;
+}
+
+.sponsors .sponsor img {
+  max-width: 100%;
+}
+
 /**** Movies ****/
 .movies {
   background: #000000;
