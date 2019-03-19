@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#main-nav" data-offset="75">
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="main-nav">
         <div class="container">
             <a class="navbar-brand" href="#">Brooklyn Film Festival</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Program</a>
+                        <a class="nav-link" href="#news">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#movies">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +72,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="section-intro">
                 <h2 class="section-intro__title">
@@ -110,7 +113,7 @@
         </div>
     </section>
 
-    <section class="news">
+    <section class="news" id="news">
         <div class="container">
             <div class="section-intro">
                 <h2 class="section-intro__title">
@@ -135,7 +138,7 @@
         </div>
     </section>
 
-    <section class="movies">
+    <section class="movies" id="movies">
         <div class="container">
 
             <div class="section-intro">
@@ -347,7 +350,7 @@
             </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="section-intro">
                 <h2 class="section-intro__title">
