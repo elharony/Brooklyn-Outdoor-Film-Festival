@@ -146,6 +146,8 @@ section {
 /* navbar */
 .navbar-expand-lg {
   background: #ffffff !important;
+  -webkit-box-shadow: 0 0 10px -5px #e2e2e2;
+          box-shadow: 0 0 10px -5px #e2e2e2;
 }
 
 .navbar-expand-lg .navbar-brand {
@@ -460,6 +462,8 @@ section {
 /**** Footer ****/
 footer {
   padding: 0.5rem;
+  -webkit-box-shadow: 10px 0px 15px -5px #e2e2e2;
+          box-shadow: 10px 0px 15px -5px #e2e2e2;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
