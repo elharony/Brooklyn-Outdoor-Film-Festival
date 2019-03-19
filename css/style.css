@@ -183,23 +183,36 @@ section {
   vertical-align: middle;
   text-align: center;
   position: relative;
+  padding: 0 15px;
 }
 
 .intro .content .content__pre-title {
-  font-size: 1.2rem;
+  font-size: .8rem;
   text-transform: uppercase;
   margin: 0;
 }
 
 .intro .content .content__title {
-  font-size: 6rem;
+  font-size: 3.5rem;
   margin: 0;
 }
 
 .intro .content .content__desc {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #5a5a5a;
   margin: 1rem 0;
+}
+
+@media all and (min-width: 576px) {
+  .intro .content__pre-title {
+    font-size: 1.2rem;
+  }
+  .intro .content__title {
+    font-size: 6rem;
+  }
+  .intro .content__desc {
+    font-size: 2.5rem;
+  }
 }
 
 /**** About ****/
